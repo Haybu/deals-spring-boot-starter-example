@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="daily-discount-app" />
+        <module name="daily-discount-autoconfigure" />
+        <module name="daily-discount-spring-boot-starter" />
+        <module name="demo-discount" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="daily-discount-app" target="1.5" />
+      <module name="daily-discount-autoconfigure" target="1.5" />
+      <module name="daily-discount-spring-boot-starter" target="1.5" />
+      <module name="demo-discount" target="1.8" />
+      <module name="demo-thirdparty-boot-starter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

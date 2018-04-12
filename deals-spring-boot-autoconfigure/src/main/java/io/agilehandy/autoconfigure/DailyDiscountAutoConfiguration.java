@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ConditionalOnClass(Discount.class)
-@ConditionalOnProperty(name = "daily.discount.category.name")
+@ConditionalOnProperty(name = "deals.category.name")
 @EnableConfigurationProperties(DailyDiscountProperties.class)
 public class DailyDiscountAutoConfiguration {
 

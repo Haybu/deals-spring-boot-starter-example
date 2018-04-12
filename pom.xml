@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.agilehandy</groupId>
-    <artifactId>demo-thirdparty-boot-starter</artifactId>
+    <artifactId>deals-spring-boot-starter-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
 
     <modules>
-        <module>daily-discount</module>
-        <module>daily-discount-autoconfigure</module>
-        <module>daily-discount-spring-boot-starter</module>
-        <module>demo-discount-app</module>
+        <module>deals</module>
+        <module>deals-spring-boot-autoconfigure</module>
+        <module>deals-spring-boot-starter</module>
+        <module>sample-deals-app</module>
     </modules>
 
 

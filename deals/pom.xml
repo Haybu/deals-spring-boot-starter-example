@@ -17,4 +17,17 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>spring.io</id>
+            <name>repo.spring.io-releases</name>
+            <url>https://repo.spring.io/libs-demo-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>spring.io</id>
+            <name>repo.spring.io-snapshots</name>
+            <url>https://repo.spring.io/libs-demo-local</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>

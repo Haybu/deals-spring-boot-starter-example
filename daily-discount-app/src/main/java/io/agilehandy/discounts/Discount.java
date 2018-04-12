@@ -39,7 +39,13 @@ public class Discount {
 
         DecimalFormat f = new DecimalFormat("#0.00");
 
-        return ("Today " + dow + ", your ticket for " + name + " offers " + f.format(discount) + "% discount");
+        return new StringBuffer("Today ").append(dow)
+                .append(", your ticket for ")
+                .append(name)
+                .append(" offers ")
+                .append(f.format(discount))
+                .append("% discount")
+                .toString();
     }
 
     private static float randFloat(float min, float max) {

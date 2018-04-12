@@ -11,10 +11,10 @@
 
 
     <modules>
-        <module>daily-discount-app</module>
+        <module>daily-discount</module>
         <module>daily-discount-autoconfigure</module>
         <module>daily-discount-spring-boot-starter</module>
-        <module>demo-discount</module>
+        <module>demo-discount-app</module>
     </modules>
 
 

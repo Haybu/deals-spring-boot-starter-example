@@ -32,7 +32,7 @@
 
         <dependency>
             <groupId>io.agilehandy</groupId>
-            <artifactId>daily-discount-app</artifactId>
+            <artifactId>daily-discount</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <optional>true</optional>
         </dependency>

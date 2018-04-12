@@ -20,8 +20,8 @@
     <dependencies>
 
         <!-- I can start up by myself -->
-        <!-- disable me and the dependency mgmt below if you want to depend on spring boot to start up -->
-        <!-- remember to uncomment to plugin  below if you disable this dependency -->
+        <!-- if you want to depend on spring boot to start up, then disable me and the dependency mgmt below  -->
+        <!-- and remember to uncomment the plugin below -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -35,7 +35,7 @@
 
         <dependency>
             <groupId>io.agilehandy</groupId>
-            <artifactId>daily-discount-app</artifactId>
+            <artifactId>daily-discount</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

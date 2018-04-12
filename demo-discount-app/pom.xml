@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.agilehandy</groupId>
-    <artifactId>demo-discount</artifactId>
+    <artifactId>demo-discount-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>demo-discount</name>
-    <description>Demo project for Spring Boot</description>
+    <name>demo-discount-app</name>
+    <description>Demo project for Spring Boot app</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

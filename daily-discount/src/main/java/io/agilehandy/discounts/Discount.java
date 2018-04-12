@@ -35,7 +35,7 @@ public class Discount {
 
         float fraction = categoryNameLength % (10 * numberOfDigits);
 
-        float discount = 10 * randFloat(0, dayIndex * fraction);
+        float discount = randFloat(0, dayIndex * fraction);
 
         DecimalFormat f = new DecimalFormat("#0.00");
 

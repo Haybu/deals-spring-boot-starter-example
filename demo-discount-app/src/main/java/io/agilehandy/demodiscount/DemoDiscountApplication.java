@@ -23,6 +23,9 @@ public class DemoDiscountApplication {
 
     @Bean
     public CommandLineRunner clr()  {
-        return args -> discount.printDiscountTicket();
+        return args -> {
+            System.out.println(discount.printDiscountTicket());
+        };
+
     }
 }

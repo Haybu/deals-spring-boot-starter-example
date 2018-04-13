@@ -3,13 +3,23 @@ package io.agilehandy.deals;
 /**
  * By: Haytham Mohamed
  */
-
 public class Category {
-    String name;
 
-    public Category() {}
-    public Category(String n) { name = n;}
+	private String name;
 
-    public String getName() { return name;}
-    public void setName(String n) { name = n;}
+	public Category() {
+	}
+
+	public Category(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 }

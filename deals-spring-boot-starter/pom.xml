@@ -12,6 +12,11 @@
     <description>Demo project for Spring Boot Starter</description>
 
     <dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		
         <dependency>
             <groupId>io.agilehandy</groupId>
             <artifactId>deals-spring-boot-autoconfigure</artifactId>

@@ -16,14 +16,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-		
-        <dependency>
+
+		<dependency>
+			<groupId>io.agilehandy</groupId>
+			<artifactId>deals</artifactId>
+		</dependency>
+		<dependency>
             <groupId>io.agilehandy</groupId>
             <artifactId>deals-spring-boot-autoconfigure</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.agilehandy</groupId>
-            <artifactId>deals</artifactId>
         </dependency>
     </dependencies>
 

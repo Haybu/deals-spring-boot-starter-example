@@ -55,6 +55,7 @@ public class DailyDiscountAutoConfigurationTests {
 
 		@Bean
 		public Discount myDiscount() {
+
 			return new Discount(new Category("test"));
 		}
 

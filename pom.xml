@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.agilehandy</groupId>
-    <artifactId>deals-spring-boot-starter-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+	<artifactId>deals-spring-boot-starter-example</artifactId>
     <packaging>pom</packaging>
 
 	<properties>
